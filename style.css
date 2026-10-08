@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(./assets/fonts/Roboto-VariableFont.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.dashboard-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: auto auto;
+}
+
+.nav-container {
+  background-color: rgb(43, 149, 236);
+  grid-row: 1 / 4;
+}
+
+.bar-container {
+  background-color: purple;
+  grid-column: 2 / 4;
+}
+
+.project-container {
+  background-color: bisque;
+  grid-row: 2 / 4;
+}
+
+.announcements-container {
+  background-color: burlywood;
+}
+
+.trending-container {
+  background-color: darkgoldenrod;
+}
