@@ -17,6 +17,10 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style: none;
+}
+
 .dashboard-container {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
@@ -24,8 +28,41 @@ a {
 }
 
 .nav-container {
-  background-color: rgb(43, 149, 236);
+  background-color: rgb(31, 139, 226);
   grid-row: 1 / 4;
+  display: grid;
+  grid-template-columns: repeat(1, minmax(260px, 1fr));
+  grid-template-rows: 50px 220px 220px;
+  row-gap: 40px;
+}
+
+.nav-container div {
+  padding-left: 14px;
+}
+.nav-container ul {
+  padding-left: 20px;
+}
+
+.logo {
+  display: grid;
+  grid-template-columns: 50px auto;
+  align-items: center;
+  padding-top: 10px;
+  gap: 8px;
+}
+
+.logo h1 {
+  color: white;
+}
+
+.nav-item a {
+  display: grid;
+  grid-template-columns: 25px auto;
+  column-gap: 18px;
+  align-items: center;
+  margin-bottom: 10px;
+  color: white;
+  font-weight: 600;
 }
 
 .bar-container {
