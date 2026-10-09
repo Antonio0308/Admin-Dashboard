@@ -112,8 +112,8 @@
       <!-- Block containing the search bar / notifications, user profile bars, and various action buttons -->
       <div class="bar-container">
         <!-- Block containing the search bar, the notification button, and the username/profile -->
-        <div>
-          <div>
+        <div class="bar-top">
+          <div class="search-bar">
             <label for="search"
               ><img
                 src="./assets/icons/search.svg"
@@ -122,7 +122,7 @@
             /></label>
             <input type="text" id="search" />
           </div>
-          <div>
+          <div class="notifications-bar">
             <img
               src="./assets/icons/notifications.svg"
               alt="notifications-icon"
@@ -138,8 +138,8 @@
           </div>
         </div>
         <!-- Block containing the large username bar with buttons redirecting to upload, new, and share pages -->
-        <div>
-          <div>
+        <div class="bar-bottom">
+          <div class="profile-info">
             <img
               src="./assets/images/avatar-cat.jpeg"
               alt="avatar-cat"
@@ -147,14 +147,16 @@
               height="75"
             />
             <p>
-              Hi there, <br />
-              <strong>Morgan Oakley (@morgan)</strong>
+              <strong>
+                Hi there, <br />
+                <span class="pseudo">Morgan Oakley (@morgan)</span>
+              </strong>
             </p>
           </div>
-          <div>
-            <a href="#">New</a>
-            <a href="#">Upload</a>
-            <a href="#">Share</a>
+          <div class="list-btn">
+            <button><a href="#">New</a></button>
+            <button><a href="#">Upload</a></button>
+            <button><a href="#">Share</a></button>
           </div>
         </div>
       </div>
