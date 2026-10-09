@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./assets/icons/dashboard.svg" />
     <title>Admin Dashboard</title>
   </head>
   <body>
@@ -118,7 +119,7 @@
               ><img
                 src="./assets/icons/search.svg"
                 alt="search-icon"
-                width="25"
+                height="30"
             /></label>
             <input type="text" id="search" />
           </div>
@@ -310,26 +311,28 @@
       <!-- Announcements block -->
       <div class="announcements-container">
         <h2>Annoucements</h2>
-        <div>
-          <div>
-            <h3>Site Maintenance</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-              voluptas, eos eaque nihil reiciendis hic.
+        <div class="announce-list">
+          <div class="announce-item">
+            <h4>Site Maintenance</h4>
+            <p class="p-margin">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+              impedit possimus officia.
             </p>
           </div>
-          <div>
-            <h3>Community Share Day</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-              laboriosam suscipit vero maxime ipsam voluptatum.
+          <hr />
+          <div class="announce-item">
+            <h4 class="h4-margin">Community Share Day</h4>
+            <p class="p-margin">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque nam officia exercitationem.
             </p>
           </div>
-          <div>
-            <h3>Updated Privacy Policy</h3>
+          <hr />
+          <div class="announce-item">
+            <h4 class="h4-margin">Updated Privacy Policy</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ipsa
-              consequatur earum, ipsum pariatur ad.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+              tempora saepe non?
             </p>
           </div>
         </div>
@@ -338,42 +341,58 @@
       <!-- Trending block -->
       <div class="trending-container">
         <h2>Trending</h2>
-        <div>
-          <div>
+        <div class="trending-list">
+          <div class="trending-item">
             <img
               src="./assets/images/avatar-spider.jpeg"
               alt="avatar-spider"
               width="50"
               height="50"
             />
-            <p><strong>@tegan</strong><br />World Peace Builder</p>
+            <p>
+              <strong>@tegan</strong><br /><span class="grey"
+                >World Peace Builder</span
+              >
+            </p>
           </div>
-          <div>
+          <div class="trending-item">
             <img
               src="./assets/images/avatar-cat.jpeg"
               alt="avatar-cat"
               width="50"
               height="50"
             />
-            <p><strong>@morgan</strong><br />Super Cool Project</p>
+            <p>
+              <strong>@morgan</strong><br /><span class="grey"
+                >Super Cool Project</span
+              >
+            </p>
           </div>
-          <div>
+          <div class="trending-item">
             <img
               src="./assets/images/avatar-spider.jpeg"
               alt="avatar-spider"
               width="50"
               height="50"
             />
-            <p><strong>@kendall</strong><br />Life Changing App</p>
+            <p>
+              <strong>@kendall</strong><br /><span class="grey"
+                >Life Changing App</span
+              >
+            </p>
           </div>
-          <div>
+          <div class="trending-item">
             <img
               src="./assets/images/avatar-cat.jpeg"
               alt="avatar-cat"
               width="50"
               height="50"
             />
-            <p><strong>@alex</strong><br />No Traffic Maker</p>
+            <p>
+              <strong>@alex</strong><br /><span class="grey"
+                >No Traffic Maker</span
+              >
+            </p>
           </div>
         </div>
       </div>
