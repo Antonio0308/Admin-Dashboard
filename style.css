@@ -24,7 +24,7 @@ li {
 
 h2 {
   font-size: 20px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .dashboard-container {
@@ -155,10 +155,42 @@ h2 {
 }
 
 .project-container {
-  background-color: bisque;
   grid-row: 2 / 4;
   margin-top: 30px;
   margin-left: 20px;
+  margin-right: 20px;
+}
+
+.list-project {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: auto;
+  gap: 20px;
+}
+
+.project-item {
+  background-color: white;
+  padding: 30px 20px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgb(160, 159, 159);
+  border-left: 6px solid rgb(31, 139, 226);
+}
+
+.project-item h3 {
+  font-size: 18px;
+}
+
+.project-item p {
+  height: 100px;
+  text-align: justify;
+}
+
+.project-item div {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-top: 20px;
 }
 
 .announcements-container {
